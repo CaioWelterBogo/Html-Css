@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(175, 99, 247);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+h1 {
+    color: brown;
+}
+h2 {
+    color: rgb(83, 6, 6);
+}
