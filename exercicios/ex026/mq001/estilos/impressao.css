@@ -1,0 +1,15 @@
+@charset "UTF-8 ";
+
+*{
+    padding: 10px;
+    margin: 10px;
+}
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4em;
+}
+
+header{
+    display: none;
+}
