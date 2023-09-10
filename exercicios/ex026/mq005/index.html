@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <title>Media Query</title>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <div id="menu" onclick="clickMenu()">
+            <div class="menus"></div>
+            <div class="menus"></div>
+            <div class="menus"></div>
+        </div>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Query</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur natus quam soluta quidem tempore praesentium aliquam inventore quae nihil, possimus doloribus debitis sed nemo dolorum neque reprehenderit tenetur ratione necessitatibus.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aliquam eveniet consectetur dolor saepe nihil earum optio facilis distinctio assumenda, molestiae eaque fugit blanditiis odio. Tempore, quibusdam nisi. Cumque, cum? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, ipsam voluptates. Mollitia perspiciatis inventore error modi assumenda exercitationem eum repellendus quod, commodi repudiandae ratione culpa eveniet fugiat adipisci minus et.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit fuga eum, ducimus voluptas possimus illo sapiente repellendus placeat nihil corporis facere ullam doloribus, facilis eius quidem, autem distinctio nisi voluptatum!
+            Ipsa similique, est nulla numquam sit voluptatum ipsum doloribus cum voluptatem totam odio mollitia placeat, soluta nesciunt repellat. Nam eligendi repudiandae corrupti ipsa similique, architecto tempore magni saepe sint vero?
+            Fuga repudiandae tenetur iure libero magni a odit fugit facilis quisquam iste blanditiis illum rerum, tempore culpa, exercitationem natus ipsum quibusdam quis aut est magnam rem. Dolorem ex impedit iste? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit doloribus voluptates harum, quae expedita deserunt modi beatae voluptatum eos quasi dolore necessitatibus ex animi excepturi optio rerum numquam saepe adipisci!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, rerum corrupti possimus atque, eveniet et eaque mollitia suscipit exercitationem nihil tempore, asperiores ducimus soluta dolore fuga recusandae culpa. Accusamus, dolorem.
+            Enim, provident placeat quam aliquid asperiores sint error ex itaque temporibus laborum magnam adipisci porro doloribus, rem tempore odio aspernatur corporis illum commodi delectus autem non. Omnis ducimus quam sapiente.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            if(itens.style.display == "block"){
+                itens.style.display = "none"
+            }else{
+                itens.style.display = "block"
+            }
+        }
+    </script>
+</body>
+</html>
